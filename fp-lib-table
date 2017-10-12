@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RJ12-Housing)(type KiCad)(uri "$(KIPRJMOD)/RJ12-Housing.pretty")(options "")(descr ""))
+)

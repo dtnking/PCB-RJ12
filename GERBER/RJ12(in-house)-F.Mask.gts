@@ -1,19 +1,19 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,4.0.7*%
-%TF.CreationDate,2017-09-30T17:10:56+08:00*%
-%TF.ProjectId,rj12-with-connector,726A31322D776974682D636F6E6E6563,rev?*%
-%TF.FileFunction,Copper,L2,Bot,Signal*%
+%TF.CreationDate,2017-10-04T14:34:26+08:00*%
+%TF.ProjectId,RJ12(in-house),524A313228696E2D686F757365292E6B,rev?*%
+%TF.FileFunction,Soldermask,Top*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 09/30/17 17:10:56*
+G04 Created by KiCad (PCBNEW 4.0.7) date 10/04/17 14:34:26*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
 %ADD10C,0.100000*%
-%ADD11C,2.400000*%
-%ADD12C,1.400000*%
-%ADD13R,1.700000X1.700000*%
-%ADD14O,1.700000X1.700000*%
+%ADD11C,2.800000*%
+%ADD12C,1.800000*%
+%ADD13R,2.100000X2.100000*%
+%ADD14O,2.100000X2.100000*%
 G04 APERTURE END LIST*
 D10*
 D11*

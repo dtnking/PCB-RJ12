@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:RJ12-Housing
+LIBS:rj12-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,52 +47,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Conn_02x06_Top_Bottom J1
-U 1 1 59CCD3BF
-P 3850 2850
-F 0 "J1" H 3900 3150 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 3900 2450 50  0000 C CNN
-F 2 "rj12connector:2x6PinHeader" H 3850 2850 50  0001 C CNN
-F 3 "" H 3850 2850 50  0001 C CNN
-	1    3850 2850
-	1    0    0    -1  
-$EndComp
-Text GLabel 3650 2650 0    60   Input ~ 0
+Text GLabel 4200 2650 0    60   Input ~ 0
 pin1
-Text GLabel 3650 2750 0    60   Input ~ 0
+Text GLabel 4200 2750 0    60   Input ~ 0
 pin2
-Text GLabel 3650 2850 0    60   Input ~ 0
+Text GLabel 4200 2850 0    60   Input ~ 0
 pin3
-Text GLabel 3650 2950 0    60   Input ~ 0
+Text GLabel 4200 2950 0    60   Input ~ 0
 pin4
-Text GLabel 3650 3050 0    60   Input ~ 0
+Text GLabel 4200 3050 0    60   Input ~ 0
 pin5
-Text GLabel 3650 3150 0    60   Input ~ 0
+Text GLabel 4200 3150 0    60   Input ~ 0
 pin6
-Text GLabel 4150 2650 2    60   Input ~ 0
-pin1
-Text GLabel 4150 2750 2    60   Input ~ 0
-pin2
-Text GLabel 4150 2850 2    60   Input ~ 0
-pin3
-Text GLabel 4150 2950 2    60   Input ~ 0
-pin4
-Text GLabel 4150 3050 2    60   Input ~ 0
-pin5
-Text GLabel 4150 3150 2    60   Input ~ 0
-pin6
-$Comp
-L RJ12_Housing P1
-U 1 1 59CCD932
-P 5350 2950
-F 0 "P1" H 5400 2600 60  0000 C CNN
-F 1 "RJ12_Housing" V 5500 3000 60  0000 C CNN
-F 2 "rj12connector:myRJ12" V 5450 3050 60  0001 C CNN
-F 3 "" V 5450 3050 60  0001 C CNN
-	1    5350 2950
-	1    0    0    -1  
-$EndComp
 Text GLabel 5000 2650 0    60   Input ~ 0
 pin1
 Text GLabel 5000 2750 0    60   Input ~ 0
@@ -104,4 +71,26 @@ Text GLabel 5000 3050 0    60   Input ~ 0
 pin5
 Text GLabel 5000 3150 0    60   Input ~ 0
 pin6
+$Comp
+L Conn_01x06 J1
+U 1 1 59DF5F34
+P 4400 2850
+F 0 "J1" H 4400 3150 50  0000 C CNN
+F 1 "Conn_01x06" H 4400 2450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 4400 2850 50  0001 C CNN
+F 3 "" H 4400 2850 50  0001 C CNN
+	1    4400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ12_Housing P1
+U 1 1 59DF6F57
+P 5350 2950
+F 0 "P1" H 5400 2600 60  0000 C CNN
+F 1 "RJ12_Housing" V 5500 3000 60  0000 C CNN
+F 2 "RJ12-Housing:RJ12" V 5450 3050 60  0001 C CNN
+F 3 "" V 5450 3050 60  0001 C CNN
+	1    5350 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
