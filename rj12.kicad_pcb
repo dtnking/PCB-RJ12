@@ -3,7 +3,7 @@
   (general
     (links 13)
     (no_connects 0)
-    (area 159.489999 99.449999 175.630001 122.560001)
+    (area 150.580402 95.879955 180.501428 122.560001)
     (thickness 1.6)
     (drawings 34)
     (tracks 27)
@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ./))
+      (outputdirectory RJ-12/))
   )
 
   (net 0 "")
