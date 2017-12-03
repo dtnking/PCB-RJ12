@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name RJ12-Housing)(type KiCad)(uri "$(KIPRJMOD)/RJ12-Housing.pretty")(options "")(descr ""))
   (lib (name VIA)(type KiCad)(uri "$(KIPRJMOD)/VIA.pretty")(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "$(KIPRJMOD)/logo.pretty")(options "")(descr ""))
 )
